@@ -78,12 +78,14 @@ enum ButtonType: String {
 
 struct ContentView: View {
     @State private var totalNumber: String = "0"
+    @State var tempNumber: Int = 0
+    @State var operationType: ButtonType = .clear
     private let buttonData: [[ButtonType]] = [
         [.clear, .opposite, .percent, .divide],
         [.seventh, .eighth, .nineth, .multiple],
         [.fourth, .fifth, .sixth, .minus],
         [.first, .second, .third, .plus],
-        [.zero, .zero, .comma, .equal]]
+        [.zero, .comma, .equal]]
     
     var body: some View {
         ZStack {
@@ -103,9 +105,44 @@ struct ContentView: View {
                     HStack {
                         ForEach(line, id: \.self) { item in
                             Button {
+                                if totalNumber == "0" {
+                                    if item == .clear {
+                                        totalNumber = "0"
+                                    } else if item == .plus || item == .minus || item == .multiple || item == .divide {
+                                        totalNumber = "Error"
+                                    } else {
+                                        totalNumber = item.buttonDisplayName
+                                    }
+                                } else {
+                                    if item == .clear {
+                                        totalNumber = "0"
+                                    } else if item == .plus {
+                                        tempNumber = Int(totalNumber) ?? 0
+                                        operationType = .plus
+                                        totalNumber = "0"
+                                    } else if item == .multiple {
+                                        tempNumber = Int(totalNumber) ?? 0
+                                        operationType = .multiple
+                                        totalNumber = "0"
+                                    } else if item == .minus {
+                                        tempNumber = Int(totalNumber) ?? 0
+                                        operationType = .minus
+                                        totalNumber = "0"
+                                    } else if item == .equal {
+                                        if operationType == .plus {
+                                            totalNumber = String(tempNumber + (Int(totalNumber) ?? 0))
+                                        } else if operationType == .multiple {
+                                            totalNumber = String(tempNumber * (Int(totalNumber) ?? 0))
+                                        } else if operationType == .minus {
+                                            totalNumber = String(tempNumber - (Int(totalNumber) ?? 0))
+                                        }
+                                    } else {
+                                        totalNumber += item.buttonDisplayName
+                                    }
+                                }
                             } label:    {
                                 Text(item.buttonDisplayName)
-                                    .frame(width: 80, height: 80)
+                                    .frame(width: item == .zero ? 160 : 80, height: 80)
                                     .background(item.backgroundColor)
                                     .cornerRadius(40)
                                     .foregroundColor(item.foregroundColor)
