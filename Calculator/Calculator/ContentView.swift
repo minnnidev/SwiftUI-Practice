@@ -124,13 +124,7 @@ struct ContentView: View {
                                     case .minus:
                                         setOperationType(operation: .minus)
                                     case .equal:
-                                        if operationType == .plus {
-                                            totalNumber = String(tempNumber + (Int(totalNumber) ?? 0))
-                                        } else if operationType == .multiple {
-                                            totalNumber = String(tempNumber * (Int(totalNumber) ?? 0))
-                                        } else if operationType == .minus {
-                                            totalNumber = String(tempNumber - (Int(totalNumber) ?? 0))
-                                        }
+                                        calculateWithOperation(operation: operationType)
                                     default:
                                         totalNumber += item.buttonDisplayName
                                     }
@@ -168,6 +162,16 @@ struct ContentView: View {
         tempNumber = Int(totalNumber)!
         operationType = operation
         totalNumber = "0"
+    }
+    
+    private func calculateWithOperation(operation: ButtonType) {
+        if operationType == .plus {
+            totalNumber = String(tempNumber + (Int(totalNumber) ?? 0))
+        } else if operationType == .multiple {
+            totalNumber = String(tempNumber * (Int(totalNumber) ?? 0))
+        } else if operationType == .minus {
+            totalNumber = String(tempNumber - (Int(totalNumber) ?? 0))
+        }
     }
 }
 
