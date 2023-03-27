@@ -114,21 +114,16 @@ struct ContentView: View {
                                         totalNumber = item.buttonDisplayName
                                     }
                                 } else {
-                                    if item == .clear {
+                                    switch item {
+                                    case .clear:
                                         totalNumber = "0"
-                                    } else if item == .plus {
-                                        tempNumber = Int(totalNumber) ?? 0
-                                        operationType = .plus
-                                        totalNumber = "0"
-                                    } else if item == .multiple {
-                                        tempNumber = Int(totalNumber) ?? 0
-                                        operationType = .multiple
-                                        totalNumber = "0"
-                                    } else if item == .minus {
-                                        tempNumber = Int(totalNumber) ?? 0
-                                        operationType = .minus
-                                        totalNumber = "0"
-                                    } else if item == .equal {
+                                    case .plus:
+                                        setOperationType(operation: .plus)
+                                    case .multiple:
+                                        setOperationType(operation: .multiple)
+                                    case .minus:
+                                        setOperationType(operation: .minus)
+                                    case .equal:
                                         if operationType == .plus {
                                             totalNumber = String(tempNumber + (Int(totalNumber) ?? 0))
                                         } else if operationType == .multiple {
@@ -136,7 +131,7 @@ struct ContentView: View {
                                         } else if operationType == .minus {
                                             totalNumber = String(tempNumber - (Int(totalNumber) ?? 0))
                                         }
-                                    } else {
+                                    default:
                                         totalNumber += item.buttonDisplayName
                                     }
                                 }
@@ -167,6 +162,12 @@ struct ContentView: View {
     
     private func calculateButtonHeight() -> CGFloat {
         return (UIScreen.main.bounds.width - 5*10) / 4
+    }
+    
+    private func setOperationType(operation: ButtonType) {
+        tempNumber = Int(totalNumber)!
+        operationType = operation
+        totalNumber = "0"
     }
 }
 
