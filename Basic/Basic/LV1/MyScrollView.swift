@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScrollPracticeView: View {
+struct MyScrollView: View {
     var body: some View {
         ScrollView(.horizontal) {
             HStack {
@@ -26,8 +26,8 @@ struct ScrollPracticeView: View {
     }
 }
 
-struct ScrollPracticeView_Previews: PreviewProvider {
+struct MyScrollView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrollPracticeView()
+        MyScrollView()
     }
 }
