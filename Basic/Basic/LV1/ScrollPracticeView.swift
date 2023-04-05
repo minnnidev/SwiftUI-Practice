@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ScrollPracticeView: View {
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
+        ScrollView(.horizontal) {
             HStack {
                 Text("1")
                     .frame(width: 300, height: 500)
