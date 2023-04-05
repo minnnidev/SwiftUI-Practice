@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D4029DDC1A900EF665B /* BasicApp.swift */; };
-		AB443D4329DDC1A900EF665B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D4229DDC1A900EF665B /* ContentView.swift */; };
+		AB443D4329DDC1A900EF665B /* ScrollPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D4229DDC1A900EF665B /* ScrollPracticeView.swift */; };
 		AB443D4529DDC1AA00EF665B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB443D4429DDC1AA00EF665B /* Assets.xcassets */; };
 		AB443D4829DDC1AA00EF665B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB443D4729DDC1AA00EF665B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AB443D3D29DDC1A900EF665B /* Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB443D4029DDC1A900EF665B /* BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicApp.swift; sourceTree = "<group>"; };
-		AB443D4229DDC1A900EF665B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB443D4229DDC1A900EF665B /* ScrollPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPracticeView.swift; sourceTree = "<group>"; };
 		AB443D4429DDC1AA00EF665B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB443D4729DDC1AA00EF665B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 		AB443D4E29DDC28000EF665B /* LV1 */ = {
 			isa = PBXGroup;
 			children = (
-				AB443D4229DDC1A900EF665B /* ContentView.swift */,
+				AB443D4229DDC1A900EF665B /* ScrollPracticeView.swift */,
 			);
 			path = LV1;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB443D4329DDC1A900EF665B /* ContentView.swift in Sources */,
+				AB443D4329DDC1A900EF665B /* ScrollPracticeView.swift in Sources */,
 				AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
