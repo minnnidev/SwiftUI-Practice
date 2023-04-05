@@ -26,7 +26,7 @@ struct ScrollPracticeView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ScrollPracticeView_Previews: PreviewProvider {
     static var previews: some View {
         ScrollPracticeView()
     }
