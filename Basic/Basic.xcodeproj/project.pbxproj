@@ -13,6 +13,7 @@
 		AB443D4829DDC1AA00EF665B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB443D4729DDC1AA00EF665B /* Preview Assets.xcassets */; };
 		AB443D5029DDC6A000EF665B /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D4F29DDC6A000EF665B /* MyListView.swift */; };
 		AB443D5629E4581100EF665B /* MySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D5529E4581100EF665B /* MySectionView.swift */; };
+		AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D5729E45A5E00EF665B /* MySpacerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AB443D4729DDC1AA00EF665B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB443D4F29DDC6A000EF665B /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
 		AB443D5529E4581100EF665B /* MySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionView.swift; sourceTree = "<group>"; };
+		AB443D5729E45A5E00EF665B /* MySpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpacerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				AB443D4229DDC1A900EF665B /* MyScrollView.swift */,
 				AB443D4F29DDC6A000EF665B /* MyListView.swift */,
 				AB443D5529E4581100EF665B /* MySectionView.swift */,
+				AB443D5729E45A5E00EF665B /* MySpacerView.swift */,
 			);
 			path = LV1;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				AB443D5629E4581100EF665B /* MySectionView.swift in Sources */,
 				AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */,
+				AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */,
 				AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */,
 				AB443D5029DDC6A000EF665B /* MyListView.swift in Sources */,
 			);
