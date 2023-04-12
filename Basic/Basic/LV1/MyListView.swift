@@ -17,7 +17,7 @@ struct Person: Identifiable {
 struct MyListView: View {
     var body: some View {
     let names: [String] = ["Kim", "Lee", "Park"]
-        let people: [Person] = [Person(name: "Kim", imageName: "heart"),
+    let people: [Person] = [Person(name: "Kim", imageName: "heart"),
                                 Person(name: "Lee", imageName: "star"),
                                 Person(name: "Park", imageName: "bolt")]
 
