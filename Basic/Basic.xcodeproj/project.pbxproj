@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB02A5AA29EACFEC0044AF79 /* MyDarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB02A5A929EACFEC0044AF79 /* MyDarkView.swift */; };
 		AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D4029DDC1A900EF665B /* BasicApp.swift */; };
 		AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D4229DDC1A900EF665B /* MyScrollView.swift */; };
 		AB443D4529DDC1AA00EF665B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB443D4429DDC1AA00EF665B /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB02A5A929EACFEC0044AF79 /* MyDarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDarkView.swift; sourceTree = "<group>"; };
 		AB443D3D29DDC1A900EF665B /* Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB443D4029DDC1A900EF665B /* BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicApp.swift; sourceTree = "<group>"; };
 		AB443D4229DDC1A900EF665B /* MyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB02A5A829EACF800044AF79 /* LV2 */ = {
+			isa = PBXGroup;
+			children = (
+				AB02A5A929EACFEC0044AF79 /* MyDarkView.swift */,
+			);
+			path = LV2;
+			sourceTree = "<group>";
+		};
 		AB443D3429DDC1A900EF665B = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				AB443D4E29DDC28000EF665B /* LV1 */,
+				AB02A5A829EACF800044AF79 /* LV2 */,
 				AB443D4029DDC1A900EF665B /* BasicApp.swift */,
 				AB443D4429DDC1AA00EF665B /* Assets.xcassets */,
 				AB443D4629DDC1AA00EF665B /* Preview Content */,
@@ -163,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB02A5AA29EACFEC0044AF79 /* MyDarkView.swift in Sources */,
 				AB443D5629E4581100EF665B /* MySectionView.swift in Sources */,
 				AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */,
 				AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */,
