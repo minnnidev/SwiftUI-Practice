@@ -20,6 +20,7 @@
 		AB443D5A29E45BA400EF665B /* MyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D5929E45BA400EF665B /* MyStateView.swift */; };
 		AB74060E29ED625A00647CA6 /* MyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060D29ED625A00647CA6 /* MyAlertView.swift */; };
 		AB74061029ED651700647CA6 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060F29ED651700647CA6 /* MyTabView.swift */; };
+		AB74061229ED67E100647CA6 /* MyToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74061129ED67E100647CA6 /* MyToggleView.swift */; };
 		AB96F7CB29E6ED7F006C6B31 /* MyPaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */; };
 		AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		AB443D5929E45BA400EF665B /* MyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStateView.swift; sourceTree = "<group>"; };
 		AB74060D29ED625A00647CA6 /* MyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertView.swift; sourceTree = "<group>"; };
 		AB74060F29ED651700647CA6 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		AB74061129ED67E100647CA6 /* MyToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggleView.swift; sourceTree = "<group>"; };
 		AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPaddingView.swift; sourceTree = "<group>"; };
 		AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,7 @@
 				AB02A5AD29EAF0530044AF79 /* MyModalView.swift */,
 				AB74060D29ED625A00647CA6 /* MyAlertView.swift */,
 				AB74060F29ED651700647CA6 /* MyTabView.swift */,
+				AB74061129ED67E100647CA6 /* MyToggleView.swift */,
 			);
 			path = LV2;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */,
 				AB443D5A29E45BA400EF665B /* MyStateView.swift in Sources */,
 				AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */,
+				AB74061229ED67E100647CA6 /* MyToggleView.swift in Sources */,
 				AB02A5AC29EAD2160044AF79 /* MyDividerView.swift in Sources */,
 				AB74061029ED651700647CA6 /* MyTabView.swift in Sources */,
 				AB02A5AE29EAF0530044AF79 /* MyModalView.swift in Sources */,
