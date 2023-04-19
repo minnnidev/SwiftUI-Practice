@@ -18,6 +18,11 @@
 		AB443D5629E4581100EF665B /* MySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D5529E4581100EF665B /* MySectionView.swift */; };
 		AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D5729E45A5E00EF665B /* MySpacerView.swift */; };
 		AB443D5A29E45BA400EF665B /* MyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB443D5929E45BA400EF665B /* MyStateView.swift */; };
+		AB519B7829EEDCAB0097877D /* MyTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B7729EEDCAB0097877D /* MyTextFieldView.swift */; };
+		AB519B7A29EEDCF70097877D /* MySecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B7929EEDCF70097877D /* MySecureField.swift */; };
+		AB519B7C29EEDE950097877D /* MyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B7B29EEDE950097877D /* MyProgress.swift */; };
+		AB519B7E29EEE03D0097877D /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B7D29EEE03D0097877D /* MyLabel.swift */; };
+		AB519B8029EF6F7B0097877D /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B7F29EF6F7B0097877D /* MyNavigationView.swift */; };
 		AB74060E29ED625A00647CA6 /* MyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060D29ED625A00647CA6 /* MyAlertView.swift */; };
 		AB74061029ED651700647CA6 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060F29ED651700647CA6 /* MyTabView.swift */; };
 		AB74061229ED67E100647CA6 /* MyToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74061129ED67E100647CA6 /* MyToggleView.swift */; };
@@ -38,6 +43,11 @@
 		AB443D5529E4581100EF665B /* MySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionView.swift; sourceTree = "<group>"; };
 		AB443D5729E45A5E00EF665B /* MySpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpacerView.swift; sourceTree = "<group>"; };
 		AB443D5929E45BA400EF665B /* MyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStateView.swift; sourceTree = "<group>"; };
+		AB519B7729EEDCAB0097877D /* MyTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextFieldView.swift; sourceTree = "<group>"; };
+		AB519B7929EEDCF70097877D /* MySecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecureField.swift; sourceTree = "<group>"; };
+		AB519B7B29EEDE950097877D /* MyProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgress.swift; sourceTree = "<group>"; };
+		AB519B7D29EEE03D0097877D /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		AB519B7F29EF6F7B0097877D /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		AB74060D29ED625A00647CA6 /* MyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertView.swift; sourceTree = "<group>"; };
 		AB74060F29ED651700647CA6 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		AB74061129ED67E100647CA6 /* MyToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggleView.swift; sourceTree = "<group>"; };
@@ -65,6 +75,11 @@
 				AB74060D29ED625A00647CA6 /* MyAlertView.swift */,
 				AB74060F29ED651700647CA6 /* MyTabView.swift */,
 				AB74061129ED67E100647CA6 /* MyToggleView.swift */,
+				AB519B7729EEDCAB0097877D /* MyTextFieldView.swift */,
+				AB519B7929EEDCF70097877D /* MySecureField.swift */,
+				AB519B7B29EEDE950097877D /* MyProgress.swift */,
+				AB519B7D29EEE03D0097877D /* MyLabel.swift */,
+				AB519B7F29EF6F7B0097877D /* MyNavigationView.swift */,
 			);
 			path = LV2;
 			sourceTree = "<group>";
@@ -191,10 +206,14 @@
 			files = (
 				AB02A5AA29EACFEC0044AF79 /* MyDarkView.swift in Sources */,
 				AB443D5629E4581100EF665B /* MySectionView.swift in Sources */,
+				AB519B7E29EEE03D0097877D /* MyLabel.swift in Sources */,
 				AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */,
 				AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */,
+				AB519B7A29EEDCF70097877D /* MySecureField.swift in Sources */,
 				AB443D5A29E45BA400EF665B /* MyStateView.swift in Sources */,
 				AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */,
+				AB519B7829EEDCAB0097877D /* MyTextFieldView.swift in Sources */,
+				AB519B7C29EEDE950097877D /* MyProgress.swift in Sources */,
 				AB74061229ED67E100647CA6 /* MyToggleView.swift in Sources */,
 				AB02A5AC29EAD2160044AF79 /* MyDividerView.swift in Sources */,
 				AB74061029ED651700647CA6 /* MyTabView.swift in Sources */,
@@ -203,6 +222,7 @@
 				AB74060E29ED625A00647CA6 /* MyAlertView.swift in Sources */,
 				AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */,
 				AB443D5029DDC6A000EF665B /* MyListView.swift in Sources */,
+				AB519B8029EF6F7B0097877D /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

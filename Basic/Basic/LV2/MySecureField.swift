@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct MySecureField: View {
+    @State private var password: String = ""
+    @State var isSecureMode: Bool = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("비밀번호를 입력해 주세요")
+            HStack {
+                if isSecureMode {
+                    SecureField("비밀번호를 입력해 주세요", text: $password)
+                        .textFieldStyle(.roundedBorder)
+                } else {
+                    TextField("비밀번호를 입력해 주세요", text: $password)
+                        .textFieldStyle(.roundedBorder)
+                }
+                
+                Button {
+                    isSecureMode.toggle()
+                } label: {
+                    Image(systemName: "eye")
+                }
+                .tint(.orange)
+            }
+        }
+        .padding()
     }
 }
 

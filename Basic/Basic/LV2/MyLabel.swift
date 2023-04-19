@@ -9,7 +9,13 @@ import SwiftUI
 
 struct MyLabel: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Text(Image(systemName: "house"))
+                Text("하우스")
+            }
+            Label("하우스", systemImage: "house")
+        }
     }
 }
 

@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct MyProgress: View {
+    @State var progress: Double = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            ProgressView("Loading...", value: progress, total: 100)
+            ProgressView()
+                .tint(.orange)
+            Button {
+                progress += 5
+            } label: {
+                Text("up 5!")
+            }
+        }
+        .padding()
     }
 }
 

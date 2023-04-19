@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct MyTextFieldView: View {
+    @State private var userID: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("ID")
+            TextField("Enter your ID", text: $userID)
+                .textFieldStyle(.roundedBorder)
+        }
+        .padding()
     }
 }
 
