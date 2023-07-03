@@ -26,6 +26,7 @@
 		AB519B8229EF74370097877D /* MyNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B8129EF74370097877D /* MyNavigationStack.swift */; };
 		AB519B8429EF75820097877D /* MyAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519B8329EF75820097877D /* MyAppear.swift */; };
 		AB519BBF29F0C9E90097877D /* MyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519BBE29F0C9E90097877D /* MyShape.swift */; };
+		AB519BC129F0CAFD0097877D /* MyBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB519BC029F0CAFD0097877D /* MyBinding.swift */; };
 		AB74060E29ED625A00647CA6 /* MyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060D29ED625A00647CA6 /* MyAlertView.swift */; };
 		AB74061029ED651700647CA6 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060F29ED651700647CA6 /* MyTabView.swift */; };
 		AB74061229ED67E100647CA6 /* MyToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74061129ED67E100647CA6 /* MyToggleView.swift */; };
@@ -54,6 +55,7 @@
 		AB519B8129EF74370097877D /* MyNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationStack.swift; sourceTree = "<group>"; };
 		AB519B8329EF75820097877D /* MyAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppear.swift; sourceTree = "<group>"; };
 		AB519BBE29F0C9E90097877D /* MyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShape.swift; sourceTree = "<group>"; };
+		AB519BC029F0CAFD0097877D /* MyBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBinding.swift; sourceTree = "<group>"; };
 		AB74060D29ED625A00647CA6 /* MyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertView.swift; sourceTree = "<group>"; };
 		AB74060F29ED651700647CA6 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		AB74061129ED67E100647CA6 /* MyToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggleView.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				AB519BBE29F0C9E90097877D /* MyShape.swift */,
+				AB519BC029F0CAFD0097877D /* MyBinding.swift */,
 			);
 			path = LV3;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				AB519B7E29EEE03D0097877D /* MyLabel.swift in Sources */,
 				AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */,
 				AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */,
+				AB519BC129F0CAFD0097877D /* MyBinding.swift in Sources */,
 				AB519B7A29EEDCF70097877D /* MySecureField.swift in Sources */,
 				AB443D5A29E45BA400EF665B /* MyStateView.swift in Sources */,
 				AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */,
