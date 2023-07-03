@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AddView: View {
 
+    @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var listViewModel: ListViewModel
     @State var textFieldText: String = ""
+    @State var alertTitle: String = ""
+    @State var isShowingAlert: Bool = false
 
     var body: some View {
         ScrollView {
@@ -21,7 +25,7 @@ struct AddView: View {
                 .cornerRadius(10)
 
                 Button {
-                    print("Tap Save")
+                    saveButtonDidTap()
                 } label: {
                     Text("Save".uppercased())
                         .foregroundColor(.white)
@@ -35,6 +39,31 @@ struct AddView: View {
             .padding(14)
         }
         .navigationTitle("Add an Item 🖊️")
+        .alert(isPresented: $isShowingAlert) {
+            getAlert()
+        }
+    }
+
+    func saveButtonDidTap() {
+        if textIsAppropriate() {
+            listViewModel.addItem(title: textFieldText)
+            presentationMode.wrappedValue.dismiss()
+        } else {
+
+        }
+    }
+
+    func textIsAppropriate() -> Bool {
+        if textFieldText.count < 3 {
+            alertTitle = "3글자 이상 입력해 주세요. 🥲"
+            isShowingAlert.toggle()
+            return false
+        }
+        return true
+    }
+
+    func getAlert() -> Alert {
+        return Alert(title: Text(alertTitle))
     }
 }
 
@@ -43,5 +72,6 @@ struct AddView_Previews: PreviewProvider {
         NavigationView {
             AddView()
         }
+        .environmentObject(ListViewModel())
     }
 }
