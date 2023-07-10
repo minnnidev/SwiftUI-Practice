@@ -38,6 +38,8 @@
 		AB8905FF2A5C503C009DD3DC /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8905FE2A5C503C009DD3DC /* FrameView.swift */; };
 		AB8906032A5C52FB009DD3DC /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906022A5C52FB009DD3DC /* BackgroundAndOverlay.swift */; };
 		AB8906052A5C56DB009DD3DC /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906042A5C56DB009DD3DC /* StackView.swift */; };
+		AB8906092A5C669E009DD3DC /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906082A5C669E009DD3DC /* PaddingView.swift */; };
+		AB89060B2A5C6998009DD3DC /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89060A2A5C6998009DD3DC /* SpacerView.swift */; };
 		AB96F7CB29E6ED7F006C6B31 /* MyPaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */; };
 		AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		AB8905FE2A5C503C009DD3DC /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		AB8906022A5C52FB009DD3DC /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
 		AB8906042A5C56DB009DD3DC /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		AB8906082A5C669E009DD3DC /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
+		AB89060A2A5C6998009DD3DC /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPaddingView.swift; sourceTree = "<group>"; };
 		AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +125,8 @@
 				AB8905FE2A5C503C009DD3DC /* FrameView.swift */,
 				AB8906022A5C52FB009DD3DC /* BackgroundAndOverlay.swift */,
 				AB8906042A5C56DB009DD3DC /* StackView.swift */,
+				AB8906082A5C669E009DD3DC /* PaddingView.swift */,
+				AB89060A2A5C6998009DD3DC /* SpacerView.swift */,
 			);
 			path = "SwiftfulThinking-Beginner";
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			files = (
 				AB8905FB2A5C4906009DD3DC /* IconsView.swift in Sources */,
 				AB519B8429EF75820097877D /* MyAppear.swift in Sources */,
+				AB89060B2A5C6998009DD3DC /* SpacerView.swift in Sources */,
 				AB02A5AA29EACFEC0044AF79 /* MyDarkView.swift in Sources */,
 				AB2100482A5B324200D8941D /* ShapesView.swift in Sources */,
 				AB8906032A5C52FB009DD3DC /* BackgroundAndOverlay.swift in Sources */,
@@ -280,6 +287,7 @@
 				AB96F7CB29E6ED7F006C6B31 /* MyPaddingView.swift in Sources */,
 				AB74060E29ED625A00647CA6 /* MyAlertView.swift in Sources */,
 				AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */,
+				AB8906092A5C669E009DD3DC /* PaddingView.swift in Sources */,
 				AB443D5029DDC6A000EF665B /* MyListView.swift in Sources */,
 				AB519B8229EF74370097877D /* MyNavigationStack.swift in Sources */,
 				AB8905FD2A5C4D81009DD3DC /* ImagesView.swift in Sources */,
