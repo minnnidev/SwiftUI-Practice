@@ -33,6 +33,11 @@
 		AB74061029ED651700647CA6 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74060F29ED651700647CA6 /* MyTabView.swift */; };
 		AB74061229ED67E100647CA6 /* MyToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74061129ED67E100647CA6 /* MyToggleView.swift */; };
 		AB8905F92A5B382E009DD3DC /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8905F82A5B382E009DD3DC /* ColorsView.swift */; };
+		AB8905FB2A5C4906009DD3DC /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8905FA2A5C4906009DD3DC /* IconsView.swift */; };
+		AB8905FD2A5C4D81009DD3DC /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8905FC2A5C4D81009DD3DC /* ImagesView.swift */; };
+		AB8905FF2A5C503C009DD3DC /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8905FE2A5C503C009DD3DC /* FrameView.swift */; };
+		AB8906032A5C52FB009DD3DC /* BackgroundAndOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906022A5C52FB009DD3DC /* BackgroundAndOverlay.swift */; };
+		AB8906052A5C56DB009DD3DC /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906042A5C56DB009DD3DC /* StackView.swift */; };
 		AB96F7CB29E6ED7F006C6B31 /* MyPaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */; };
 		AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +70,11 @@
 		AB74060F29ED651700647CA6 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		AB74061129ED67E100647CA6 /* MyToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggleView.swift; sourceTree = "<group>"; };
 		AB8905F82A5B382E009DD3DC /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		AB8905FA2A5C4906009DD3DC /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
+		AB8905FC2A5C4D81009DD3DC /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		AB8905FE2A5C503C009DD3DC /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		AB8906022A5C52FB009DD3DC /* BackgroundAndOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlay.swift; sourceTree = "<group>"; };
+		AB8906042A5C56DB009DD3DC /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPaddingView.swift; sourceTree = "<group>"; };
 		AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +116,11 @@
 				AB2100472A5B324200D8941D /* ShapesView.swift */,
 				AB2100492A5B34EB00D8941D /* GradientsView.swift */,
 				AB8905F82A5B382E009DD3DC /* ColorsView.swift */,
+				AB8905FA2A5C4906009DD3DC /* IconsView.swift */,
+				AB8905FC2A5C4D81009DD3DC /* ImagesView.swift */,
+				AB8905FE2A5C503C009DD3DC /* FrameView.swift */,
+				AB8906022A5C52FB009DD3DC /* BackgroundAndOverlay.swift */,
+				AB8906042A5C56DB009DD3DC /* StackView.swift */,
 			);
 			path = "SwiftfulThinking-Beginner";
 			sourceTree = "<group>";
@@ -241,9 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8905FB2A5C4906009DD3DC /* IconsView.swift in Sources */,
 				AB519B8429EF75820097877D /* MyAppear.swift in Sources */,
 				AB02A5AA29EACFEC0044AF79 /* MyDarkView.swift in Sources */,
 				AB2100482A5B324200D8941D /* ShapesView.swift in Sources */,
+				AB8906032A5C52FB009DD3DC /* BackgroundAndOverlay.swift in Sources */,
+				AB8906052A5C56DB009DD3DC /* StackView.swift in Sources */,
 				AB443D5629E4581100EF665B /* MySectionView.swift in Sources */,
 				AB519B7E29EEE03D0097877D /* MyLabel.swift in Sources */,
 				AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */,
@@ -264,9 +282,11 @@
 				AB443D4129DDC1A900EF665B /* BasicApp.swift in Sources */,
 				AB443D5029DDC6A000EF665B /* MyListView.swift in Sources */,
 				AB519B8229EF74370097877D /* MyNavigationStack.swift in Sources */,
+				AB8905FD2A5C4D81009DD3DC /* ImagesView.swift in Sources */,
 				AB21004A2A5B34EB00D8941D /* GradientsView.swift in Sources */,
 				AB8905F92A5B382E009DD3DC /* ColorsView.swift in Sources */,
 				AB519B8029EF6F7B0097877D /* MyNavigationView.swift in Sources */,
+				AB8905FF2A5C503C009DD3DC /* FrameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
