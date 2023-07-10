@@ -40,6 +40,8 @@
 		AB8906052A5C56DB009DD3DC /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906042A5C56DB009DD3DC /* StackView.swift */; };
 		AB8906092A5C669E009DD3DC /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906082A5C669E009DD3DC /* PaddingView.swift */; };
 		AB89060B2A5C6998009DD3DC /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89060A2A5C6998009DD3DC /* SpacerView.swift */; };
+		AB8906112A5C75E9009DD3DC /* SwiftScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906102A5C75E9009DD3DC /* SwiftScrollView.swift */; };
+		AB8906132A5C7DE9009DD3DC /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8906122A5C7DE9009DD3DC /* GridView.swift */; };
 		AB96F7CB29E6ED7F006C6B31 /* MyPaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */; };
 		AB96F7CD29E6EE9E006C6B31 /* MyFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +81,8 @@
 		AB8906042A5C56DB009DD3DC /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		AB8906082A5C669E009DD3DC /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
 		AB89060A2A5C6998009DD3DC /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		AB8906102A5C75E9009DD3DC /* SwiftScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftScrollView.swift; sourceTree = "<group>"; };
+		AB8906122A5C7DE9009DD3DC /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		AB96F7CA29E6ED7F006C6B31 /* MyPaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPaddingView.swift; sourceTree = "<group>"; };
 		AB96F7CC29E6EE9E006C6B31 /* MyFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +131,8 @@
 				AB8906042A5C56DB009DD3DC /* StackView.swift */,
 				AB8906082A5C669E009DD3DC /* PaddingView.swift */,
 				AB89060A2A5C6998009DD3DC /* SpacerView.swift */,
+				AB8906102A5C75E9009DD3DC /* SwiftScrollView.swift */,
+				AB8906122A5C7DE9009DD3DC /* GridView.swift */,
 			);
 			path = "SwiftfulThinking-Beginner";
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				AB8905FB2A5C4906009DD3DC /* IconsView.swift in Sources */,
 				AB519B8429EF75820097877D /* MyAppear.swift in Sources */,
 				AB89060B2A5C6998009DD3DC /* SpacerView.swift in Sources */,
+				AB8906132A5C7DE9009DD3DC /* GridView.swift in Sources */,
 				AB02A5AA29EACFEC0044AF79 /* MyDarkView.swift in Sources */,
 				AB2100482A5B324200D8941D /* ShapesView.swift in Sources */,
 				AB8906032A5C52FB009DD3DC /* BackgroundAndOverlay.swift in Sources */,
@@ -275,6 +282,7 @@
 				AB443D4329DDC1A900EF665B /* MyScrollView.swift in Sources */,
 				AB519BC129F0CAFD0097877D /* MyBinding.swift in Sources */,
 				AB519B7A29EEDCF70097877D /* MySecureField.swift in Sources */,
+				AB8906112A5C75E9009DD3DC /* SwiftScrollView.swift in Sources */,
 				AB443D5A29E45BA400EF665B /* MyStateView.swift in Sources */,
 				AB443D5829E45A5E00EF665B /* MySpacerView.swift in Sources */,
 				AB519B7829EEDCAB0097877D /* MyTextFieldView.swift in Sources */,
